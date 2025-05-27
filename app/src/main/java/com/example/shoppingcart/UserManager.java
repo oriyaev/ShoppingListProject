@@ -14,7 +14,9 @@ public class UserManager {
     }
 
     public static boolean registerUser(String username, String password, String phone) {
-        if (username.isEmpty() || password.isEmpty()) return false;
+        if (prefs.contains(username)) {
+            return false;
+        }
         prefs.edit().putString(username, password + "," + phone).apply();
         return true;
     }
