@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- כללי -->
+    <string name="app_name">ShoppingCart</string>
+
+    <!-- כניסה והרשמה -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="new_user">New User?</string>
+    <string name="enter_username">Enter your username</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="choose_username">Choose a username</string>
+    <string name="choose_password">Choose a password</string>
+    <string name="enter_phone">Enter your phone number</string>
+    <string name="item_text">%1$s x%2$d</string>
+
+    <!-- מסך ראשי -->
+    <string name="welcome_text">Welcome %1$s!</string>
+    <string name="catalog">Catalog</string>
+    <string name="logout">Logout</string>
+    <string name="reset">Reset</string>
+    <string name="shopping_cart_list">Shopping cart items list</string>
+
+    <!-- קטלוג -->
+    <string name="search_hint">Search products...</string>
+    <string name="add">Add</string>
+    <string name="quantity">Qty:</string>
+
+    <!-- טוסטים והודעות -->
+    <string name="login_success">Login successful!</string>
+    <string name="invalid_login">Invalid username or password</string>
+    <string name="registration_success">Registration successful! Please login.</string>
+    <string name="registration_fail">Username already exists</string>
+    <string name="fill_username_password">Please fill in username and password</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/username"
+        android:hint="Choose a username"
+        android:minHeight="56dp"
+        android:textSize="18sp"
+        android:textColorHint="#AAAAAA"
+        android:textColor="#fff"
+        android:backgroundTint="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:hint="Choose a password"
+        android:inputType="textPassword"
+        android:minHeight="56dp"
+        android:textSize="18sp"
+        android:textColorHint="#AAAAAA"
+        android:textColor="#fff"
+        android:backgroundTint="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/phone"
+        android:hint="Enter your phone number"
+        android:inputType="phone"
+        android:minHeight="56dp"
+        android:textSize="18sp"
+        android:textColorHint="#AAAAAA"
+        android:textColor="#fff"
+        android:backgroundTint="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/register"
+        android:text="Register"
+        android:textSize="18sp"
+        android:minHeight="56dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
